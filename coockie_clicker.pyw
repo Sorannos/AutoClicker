@@ -29,7 +29,7 @@ main_window.resizable(0,0)
 main_window.geometry('400x180')
 # main_window.configure(background="#B8FFFF")
 
-main_window.option_add('*Font', 'Arial 14')
+main_window.option_add('*Font', 'Arial 12')
 
 title = tk.Label(main_window, text=u"Auto clicker", height=2,anchor="w").grid(row=0,columnspan=3)
 
